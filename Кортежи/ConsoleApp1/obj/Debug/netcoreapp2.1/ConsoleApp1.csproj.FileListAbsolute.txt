@@ -1,0 +1,99 @@
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\SisProg\c#\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\3курс\C#\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\3курс\C#\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\Кортежи 2.1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи Кривец\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\kenzhebek\Desktop\системка\Кортежи\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+\\iscsi\profiles\malko_a\Desktop\Проекты\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\C#\Выполненые задания\Кортежи Малко\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+F:\C#\Выполненые задания\Кортежи\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb

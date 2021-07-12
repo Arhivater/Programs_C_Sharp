@@ -1,0 +1,7 @@
+C:\Users\Дима\Desktop\Хф_1\Хф_1\bin\Debug\Хф_1.exe.config
+C:\Users\Дима\Desktop\Хф_1\Хф_1\bin\Debug\Хф_1.exe
+C:\Users\Дима\Desktop\Хф_1\Хф_1\bin\Debug\Хф_1.pdb
+C:\Users\Дима\Desktop\Хф_1\Хф_1\obj\Debug\Хф_1.csprojAssemblyReference.cache
+C:\Users\Дима\Desktop\Хф_1\Хф_1\obj\Debug\Хф_1.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Desktop\Хф_1\Хф_1\obj\Debug\Хф_1.exe
+C:\Users\Дима\Desktop\Хф_1\Хф_1\obj\Debug\Хф_1.pdb
