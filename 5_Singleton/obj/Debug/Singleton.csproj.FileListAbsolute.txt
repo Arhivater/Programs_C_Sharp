@@ -1,0 +1,27 @@
+C:\Users\thedj\source\repos\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\thedj\source\repos\Singleton\bin\Debug\Singleton.exe
+C:\Users\thedj\source\repos\Singleton\bin\Debug\Singleton.pdb
+C:\Users\thedj\source\repos\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+C:\Users\thedj\source\repos\Singleton\obj\Debug\Singleton.exe
+C:\Users\thedj\source\repos\Singleton\obj\Debug\Singleton.pdb
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\bin\Debug\Singleton.exe.config
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\bin\Debug\Singleton.exe
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\bin\Debug\Singleton.pdb
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\obj\Debug\Singleton.exe
+\\iscsi\profiles\hamdamov_d\Desktop\SysProg\C#\Singleton\obj\Debug\Singleton.pdb
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\bin\Debug\Singleton.exe.config
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\bin\Debug\Singleton.exe
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\bin\Debug\Singleton.pdb
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\obj\Debug\Singleton.exe
+E:\разберешься сам\sys-prg\Проекты\5 Singleton\obj\Debug\Singleton.pdb
+F:\C#\Выполненые задания\5 Singleton\bin\Debug\Singleton.exe.config
+F:\C#\Выполненые задания\5 Singleton\bin\Debug\Singleton.exe
+F:\C#\Выполненые задания\5 Singleton\bin\Debug\Singleton.pdb
+F:\C#\Выполненые задания\5 Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+F:\C#\Выполненые задания\5 Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+F:\C#\Выполненые задания\5 Singleton\obj\Debug\Singleton.exe
+F:\C#\Выполненые задания\5 Singleton\obj\Debug\Singleton.pdb
