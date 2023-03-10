@@ -1,0 +1,11 @@
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\bin\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.deps.json
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\bin\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.runtimeconfig.json
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\bin\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.runtimeconfig.dev.json
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\bin\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.dll
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\bin\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.pdb
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.csprojAssemblyReference.cache
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.csproj.CoreCompileInputs.cache
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.AssemblyInfoInputs.cache
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.AssemblyInfo.cs
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.dll
+F:\C#\Выполненые задания\2_2-Методы_расширения_Extention\2_2-Методы_расширения_Extention\obj\Debug\netcoreapp2.1\2_2-Методы_расширения_Extention.pdb

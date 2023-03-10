@@ -1,0 +1,11 @@
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.csprojAssemblyReference.cache
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.csproj.CoreCompileInputs.cache
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.AssemblyInfoInputs.cache
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.AssemblyInfo.cs
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\bin\Debug\netcoreapp2.1\2_Tuples.deps.json
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\bin\Debug\netcoreapp2.1\2_Tuples.runtimeconfig.json
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\bin\Debug\netcoreapp2.1\2_Tuples.runtimeconfig.dev.json
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\bin\Debug\netcoreapp2.1\2_Tuples.dll
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\bin\Debug\netcoreapp2.1\2_Tuples.pdb
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.dll
+C:\Users\Дима\source\repos\2_Tuples\2_Tuples\obj\Debug\netcoreapp2.1\2_Tuples.pdb
