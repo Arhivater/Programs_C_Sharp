@@ -1,0 +1,7 @@
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.exe.config
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.exe
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.pdb
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\Regular.csprojAssemblyReference.cache
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\Regular.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.exe
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.pdb

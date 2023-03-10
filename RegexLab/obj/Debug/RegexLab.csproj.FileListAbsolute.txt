@@ -1,0 +1,14 @@
+C:\Users\thedj\source\repos\RegexLab\bin\Debug\RegexLab.exe.config
+C:\Users\thedj\source\repos\RegexLab\bin\Debug\RegexLab.exe
+C:\Users\thedj\source\repos\RegexLab\bin\Debug\RegexLab.pdb
+C:\Users\thedj\source\repos\RegexLab\obj\Debug\RegexLab.csprojAssemblyReference.cache
+C:\Users\thedj\source\repos\RegexLab\obj\Debug\RegexLab.csproj.CoreCompileInputs.cache
+C:\Users\thedj\source\repos\RegexLab\obj\Debug\RegexLab.exe
+C:\Users\thedj\source\repos\RegexLab\obj\Debug\RegexLab.pdb
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.exe.config
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.exe
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\bin\Debug\RegexLab.pdb
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.csprojAssemblyReference.cache
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.exe
+C:\Users\Дима\Desktop\С# ДЗ\RegexLab\obj\Debug\RegexLab.pdb
