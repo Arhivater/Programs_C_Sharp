@@ -1,0 +1,124 @@
+﻿Create table Paintings(
+ID_Paintings int primary key identity,
+Paintings_Name nvarchar(166) NOT NULL,
+Date_Of_Painting date NOT NULL
+)
+
+GO
+
+Create table Genres(
+ID_Genres int primary key identity,
+Genres_Name nvarchar(166) NOT NULL
+)
+
+GO
+
+Create table Painters(
+ID_Painters int primary key identity,
+Painters_Name nvarchar(166) NOT NULL,
+Painters_Years_Of_Life_One date NOT NULL,
+Painters_Years_Of_Life_Two date NOT NULL,
+)
+
+GO
+
+Create table Paintings_By_Genres(
+ID_Paintings_By_Genres int primary key identity,
+N_Paintings INT NOT NULL,
+N_Genres INT NOT NULL,
+FOREIGN KEY(N_Paintings) REFERENCES Paintings(ID_Paintings),
+FOREIGN KEY(N_Genres) REFERENCES Genres(ID_Genres)
+)
+
+GO
+
+Create table Paintings_By_Painters(
+ID_Paintings_By_Painters int primary key identity,
+N_Paintings INT NOT NULL,
+N_Painters INT NOT NULL,
+FOREIGN KEY(N_Paintings) REFERENCES Paintings(ID_Paintings),
+FOREIGN KEY(N_Painters) REFERENCES Painters(ID_Painters)
+)
+
+GO
+
+Create table Cities(
+ID_Сities int primary key identity,
+City_Name nvarchar(166) NOT NULL,
+)
+
+GO
+
+Create table Museums(
+ID_Museums int primary key identity,
+Museums_Name nvarchar(24),
+N_Cities INT,
+FOREIGN KEY(N_Сities) REFERENCES Cities(ID_Сities)
+)
+
+GO
+
+Create table Museum_By_Exhibitions(
+ID_Museum_Exhibition int primary key identity,
+Museums_Name nvarchar(24),
+N_Museums INT,
+N_Exhibitions INT,
+FOREIGN KEY(N_Museums) REFERENCES Museums(ID_Museums),
+FOREIGN KEY(N_Exhibitions) REFERENCES Exhibitions(ID_Exhibitions)
+)
+
+GO
+
+Create table Exhibitions(
+ID_Exhibitions int primary key identity,
+Exhibition_Name nvarchar(24),
+Exhibitions_First_Date date NOT NULL,
+Exhibitions_Second_Date date NOT NULL
+)
+
+GO
+
+Create table Paintings_By_Exhibitions(
+ID_Paintings_By_Exhibitions int primary key identity,
+N_Paintings INT,
+N_Exhibitions INT,
+FOREIGN KEY(N_Exhibitions) REFERENCES Exhibitions(ID_Exhibitions),
+FOREIGN KEY(N_Paintings) REFERENCES Paintings(ID_Paintings)
+)
+
+GO
+
+Create table Restoration_Workshops(
+ID_Restoration_Workshops int primary key identity,
+Restoration_Workshops_Name nvarchar(24),
+Addresses_of_Restoration_Workshops nvarchar(24),
+N_Cities INT,
+FOREIGN KEY(N_Сities) REFERENCES Cities(ID_Сities)
+)
+
+Create table Paintings_By_Restoration_Workshops(
+ID_Restoration_Workshops int primary key identity,
+N_Paintings INT NOT NULL,
+N_Restoration_Workshops INT NOT NULL,
+Restoration_Start_Date date NOT NULL,
+Restoration_End_Date date NOT NULL,
+FOREIGN KEY(N_Paintings) REFERENCES Paintings(ID_Paintings),
+FOREIGN KEY(N_Restoration_Workshops) REFERENCES Restoration_Workshops(ID_Restoration_Workshops)
+)
+
+///////////////////////////////////////////////////////////
+
+Insert Into Paintings(Paintings_Name, Date_Of_Painting) Values
+('Краски лета','1950.12.11')
+
+
+DELETE FROM Paintings WHERE ID_Paintings ='1'
+
+DELETE FROM Paintings WHERE ID_Paintings = SELECT FROM WHERE Paintings_Name = 'Краски лета'
+
+Insert Into Painters(Painters_Name, Painters_Years_Of_Life_One, Painters_Years_Of_Life_Two) Values
+('Томас Коул','1.2.1801','11.2.1848')
+
+select dbo.Paintings.Paintings_Name, dbo.Painters.Painters_Name
+FROM dbo.Paintings, dbo.Painters, dbo.Paintings_By_Painters
+where (dbo.Paintings_By_Painters.N_Paintings = dbo.Paintings.ID_Paintings and dbo.Paintings_By_Painters.N_Painters = dbo.Painters.ID_Painters)

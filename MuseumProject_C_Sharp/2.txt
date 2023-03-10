@@ -1,0 +1,15 @@
+CREATE TABLE Paintings_by_Genres (
+	[ID_Paintings_by_Genres] [int] IDENTITY(1,1) PRIMARY KEY,
+	[ID_genres] [int] NOT NULL,
+	[ID_paintings] [int] NOT NULL
+	FOREIGN KEY (ID_genres) REFERENCES dbo.Genres (ID_Genres),
+	FOREIGN KEY([ID_paintings]) REFERENCES [dbo].[Paintings] ([ID_Paintings])
+)
+
+CREATE TABLE Paintings_by_Painters (
+	[ID_Paintings_by_Painters] [int] IDENTITY(1,1) PRIMARY KEY,
+	[ID_Paintings] [int] NOT NULL,
+	ID_Painters int NOT NULL,
+	FOREIGN KEY (ID_Paintings) REFERENCES dbo.Paintings (ID_Paintings),
+	FOREIGN KEY(ID_Painters) REFERENCES [dbo].[Painters] ([ID_Painters])
+) 

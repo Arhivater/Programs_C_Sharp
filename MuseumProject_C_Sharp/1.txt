@@ -1,0 +1,98 @@
+CREATE TABLE Paintings(
+	ID_Paintings INT PRIMARY KEY IDENTITY NOT NULL,
+	P_Name NVARCHAR(50) NOT NULL,	
+);
+
+ALTER TABLE Paintings {
+ID_Paintings INT PRIMARY KEY NOT NULL,
+P_Name NVARCHAR(50) NOT NULL
+}
+
+CREATE TABLE Paintings_By_Genres {
+ID_Paintings INT PRIMARY KEY NOT NULL,
+Paintings_Name NVARCHAR(50) NOT NULL,
+PRIMARY KEY (ID_Paintings ID_Genres)
+}
+
+ALTER TABLE Paintings_By_Genres {
+ID_Paintings INT PRIMARY KEY NOT NULL,
+Paintings_Name NVARCHAR(50) NOT NULL
+}
+
+CREATE TABLE Genres {
+ID_Genres INT PRIMARY NOT NULL,
+Genres_Name NVARCHAR(50) NOT NULL,
+PRIMARY KEY (ID_Genres)
+}
+
+ALTER TABLE Genres {
+ID_Genres INT PRIMARY NOT NULL,
+Genres_Name NVARCHAR(50) NOT NULL
+}
+
+CREATE TABLE Paintings_By_Painters {
+ID_Paintings_By_Painters PRIMARY KEY NOT NULL,
+P_Name NVARCHAR(50) NOT NULL,
+PRIMARY KEY (ID_Paintings, ID_Painters )
+}
+
+ALTER TABLE Paintings_By_Painters {
+ID_Paintings_By_Painters PRIMARY KEY NOT NULL,
+P_Name NVARCHAR(50) NOT NULL
+}
+
+CREATE TABLE Painters {
+ID_Painters INT PRIMARY NOT NULL,
+Painters_Name NVARCHAR(50) NOT NULL,
+Painters_Years_Of_Life_One INT NOT NULL,
+Painters_Years_Of_Life_Two INT NOT NULL,
+PRIMARY KEY (ID_Painters)
+}
+
+ALTER TABLE Painters {
+ID_Painters INT PRIMARY NOT NULL,
+Painters_Name NVARCHAR(50) NOT NULL,
+Painters_Years_Of_Life_One INT NOT NULL,
+Painters_Years_Of_Life_Two INT NOT NULL
+}
+	FOREIGN KEY (N_otd) REFERENCES otdel
+
+/////////////////////////////////////////////////////////////////////////////////
+
+CREATE TABLE Paintings_by_Genres(
+	ID_Paintings_by_Genres int primary key identity,
+	FOREIGN KEY(ID_genres) REFERENCES Genres(ID_Genres),
+	FOREIGN KEY(ID_paintings) REFERENCES Paintings(ID_Paintings)
+);
+
+Create table Пользователь(
+ID int primary key identity,
+Login nvarchar(24),
+Pass nvarchar(24),
+[Роль] nvarchar(20)
+)
+
+var vst = '<?php $query = "SELECT `Paintings_Name`, `Painters_Name`, `Date_Of_Painting` FROM (`Paintings`, `Painters`, `Paintings_By_Painters`) WHERE(Paintings_By_Painters.N_Paintings = Paintings.ID_Paintings AND Paintings_By_Painters.N_Painters = Painters.ID_Painters)";	$link = mysqli_connect("localhost", "root", "root", "museum"); $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); if($result) {	$rows = mysqli_num_rows($result); $test += "<table><tr>th>Название картины</th><th>Автор</th><th>Дата написания</th></tr>";	while ($row = mysqli_fetch_row($result)) { $test += "<tr>";	for ($j = 0 ; $j < 3 ; ++$j) echo "<td>$row[$j]</td>"; $test += "</tr>";}$test += "</table>";mysqli_free_result($result);}mysqli_close($link);?>';
+
+
+
+
+<?php    
+	$query = "SELECT `Paintings_Name`, `Painters_Name`, `Date_Of_Painting` FROM (`Paintings`, `Painters`, `Paintings_By_Painters`) WHERE(Paintings_By_Painters.N_Paintings = Paintings.ID_Paintings AND Paintings_By_Painters.N_Painters = Painters.ID_Painters)";
+	$link = mysqli_connect('localhost', 'root', 'root', 'museum');
+	$result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
+	if($result)
+	{
+		$rows = mysqli_num_rows($result); 
+		
+		$test += "<table><tr><th>Название картины</th><th>Автор</th><th>Дата написания</th></tr>";
+		while ($row = mysqli_fetch_row($result)) {
+			$test += "<tr>";
+			for ($j = 0 ; $j < 3 ; ++$j) echo "<td>$row[$j]</td>";
+			$test += "</tr>";
+		}
+		$test += "</table>";
+		mysqli_free_result($result);
+	} 
+	mysqli_close($link);
+	?>
