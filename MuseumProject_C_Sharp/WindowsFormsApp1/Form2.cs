@@ -18,6 +18,10 @@ namespace WindowsFormsApp1
         private string placeholderText2 = "Пароль";
         private string placeholderText3 = "Повторите пароль";
         private string commandConnection = "Data Source=DBSrv\\MSSQL;Initial Catalog=fitlife;Integrated Security=True";
+        private char passSymbol;
+        public int width = 1200;
+        public int height = 788;
+
         public Form2()
         {
             InitializeComponent();
@@ -30,8 +34,7 @@ namespace WindowsFormsApp1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            textBox1.Multiline = true;
-            textBox1.Height = 46;
+            passSymbol = textBox2.PasswordChar;
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -42,41 +45,55 @@ namespace WindowsFormsApp1
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-            this.Hide();
-            f1.ShowDialog();
-            // SqlConnection DBConnection = new SqlConnection(commandConnection);
+            if ((textBox2.Text == placeholderText1) || (textBox3.Text == placeholderText2) || (textBox4.Text == placeholderText3))
+            {
+                label1.Text = "Заполните все поля";
+                label1.Left = width / 2 - label1.Width / 2;
+                return;
+            }
+            using (SqlConnection connection = new SqlConnection(commandConnection))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("SELECT [Логин]  FROM [Пользователь] WHERE Логин = '"
+                    + textBox2.Text + "' ", connection);
+                try
+                {
+                    SqlDataReader sqlread = command.ExecuteReader();
+                    if (sqlread.HasRows)
+                    {
+                        label1.Text = "Данный логин существует";
+                    }
+                    else
+                    {
+                        if (textBox3.Text != textBox4.Text)
+                            label1.Text = "Пароли не совпадают";
+                        else
+                        {
+                            sqlread.Close();
+                            command = new SqlCommand("Insert Into Пользователь (Логин, Пароль) values ('" 
+                                + textBox2.Text + "','" + textBox3.Text + "')", connection  );
+                            sqlread = command.ExecuteReader();
+                            Form4 f4 = new Form4();
+                            this.Hide();
+                            f4.ShowDialog();
+                        }
+                    }
+                    
+                    label1.Left = width / 2 - label1.Width / 2;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString(), ex.Source.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                connection.Close();
+            }
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_Enter(object sender, EventArgs e)
-        {
-            if (textBox1.Text == placeholderText0)
-            {
-                textBox1.Text = "";
-
-                textBox1.ForeColor = Color.Black;
-            }
-        }
-
-        private void TextBox1_Leave(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "")
-            {
-                textBox1.ForeColor = Color.Gray;
-
-                textBox1.Text = placeholderText0;
-            }
-        }
+                     
 
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
@@ -108,6 +125,7 @@ namespace WindowsFormsApp1
             if (textBox3.Text == placeholderText2)
             {
                 textBox3.Text = "";
+                textBox3.PasswordChar = '*';
 
                 textBox3.ForeColor = Color.Black;
             }
@@ -118,7 +136,7 @@ namespace WindowsFormsApp1
             if (textBox3.Text == "")
             {
                 textBox3.ForeColor = Color.Gray;
-
+                textBox3.PasswordChar = passSymbol;
                 textBox3.Text = placeholderText2;
             }
         }
@@ -128,7 +146,7 @@ namespace WindowsFormsApp1
             if (textBox4.Text == placeholderText3)
             {
                 textBox4.Text = "";
-
+                textBox4.PasswordChar = '*';
                 textBox4.ForeColor = Color.Black;
             }
         }
@@ -172,7 +190,7 @@ namespace WindowsFormsApp1
             if (textBox4.Text == "")
             {
                 textBox4.ForeColor = Color.Gray;
-
+                textBox4.PasswordChar = passSymbol;
                 textBox4.Text = placeholderText3;
             }
         }

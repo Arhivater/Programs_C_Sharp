@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         private string placeholderText1 = "Логин";
         private string placeholderText2 = "Пароль";
         private string commandConnection = @"Data Source=DBSrv\MSSQL;Initial Catalog=fitlife;Integrated Security=True";
+        private char passSymbol;
         public Form3()
         {
             InitializeComponent();
@@ -32,6 +33,7 @@ namespace WindowsFormsApp1
             button1.BackColor = myRgbColor;
             textBox1.Text = placeholderText1;
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            passSymbol = textBox2.PasswordChar;
            }
 
 
@@ -60,7 +62,7 @@ namespace WindowsFormsApp1
             if (textBox2.Text == placeholderText2)
             {
                 textBox2.Text = "";
-
+                textBox2.PasswordChar = '*';
                 textBox2.ForeColor = Color.Black;
             }
         }
@@ -72,6 +74,7 @@ namespace WindowsFormsApp1
                 textBox2.ForeColor = Color.Gray;
 
                 textBox2.Text = placeholderText2;
+                textBox2.PasswordChar = passSymbol;
             }
         }
 
@@ -100,17 +103,27 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
+
+            if ( (textBox1.Text == placeholderText1) || (textBox2.Text == placeholderText2))
+            {
+                label1.Text = "Заполните все поля";
+                label1.Left = Form3.width / 2 - label1.Width / 2;
+                return;
+            }
             using (SqlConnection connection = new SqlConnection(commandConnection))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("SELECT [Логин], \"Пароль\" FROM [Пользователь] WHERE Логин = '"
+                SqlCommand command = new SqlCommand("SELECT [Логин], \"Пароль\", ID_Пользователя  FROM [Пользователь] WHERE Логин = '"
                     + textBox1.Text + "' and Пароль = '" + textBox2.Text + "'", connection);
                 try
                 {
                     SqlDataReader sqlread = command.ExecuteReader();
                     if (sqlread.HasRows)
                     {
-                        label1.Text = "Welcome to the Jungle";                        
+                        //command = new SqlCommand("SELECT ID_Пользователя FROM [Вес пользователя] WHERE ID_Пользователя=", connection);
+                        Form4 f4 = new Form4();
+                        this.Hide();
+                        f4.ShowDialog();
                     }
                     else
                     {
